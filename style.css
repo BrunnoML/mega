@@ -1,0 +1,86 @@
+body {
+  background-color: #013210;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+input {
+  width: 50px; /* Define a largura do campo */
+  height: 40px; /* Define a altura do campo */
+  font-size: 30px; /* Tamanho do texto dentro do campo */
+  text-align: center; /* Centraliza o texto dentro do campo */
+  padding-left: 12px;
+  border: 3px solid #a1dba1; /* Adiciona uma borda preta ao redor do campo */
+}
+.input-container {
+  margin: 10px 0;
+  
+}
+
+#paste-dezenas {
+  width: 400px; /* Define a largura para 400px */
+  padding: 8px; /* Adiciona espaçamento interno para uma aparência melhor */
+  font-size: 16px; /* Ajusta o tamanho da fonte para harmonizar com o campo */
+  box-sizing: border-box; /* Garante que padding e borda não aumentem o tamanho total */
+}
+
+.results {
+  margin-top: 40px;
+  text-align: center;
+}
+.highlight {
+  color: #d8ee9a; /* Verde escuro */
+  font-weight: bold;
+}
+#result-message {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFD700; /* Dourado */
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #689f73;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #555;
+}
+.output-section {
+  margin-top: 30px;
+}
+.output-section h3 {
+  margin-bottom: 10px;
+  color: #FFD700; /* Dourado */
+}
+.output-section div {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #689f73;
+  border-radius: 5px;
+}
+
+#total-quadras,
+#total-quinas {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.jogo-id {
+  font-size: 1.4rem; /* Aumenta o tamanho da fonte */
+  font-weight: bold; /* Deixa o texto em negrito */
+  color: #007bff; /* Cor azul */
+  margin-right: 10px; /* Espaço após o ID */
+}
